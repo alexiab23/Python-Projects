@@ -1,0 +1,16 @@
+print("Welcome to the Zip and Zlide Rollercoaster!")
+height = int(input("How tall are you? What is your height in cm?"))
+
+if height >= 120:
+  print("Hooray! You're eligible to ride this rollercoaster!")
+  age = int(input("How old are you?"))
+  if age < 12:
+      print("Please pay $5 to ride this rolleroaster :D")
+  if age <= 17:
+    print("Please pay $8 to ride this rolleroaster :D")
+  elif age >= 65:
+      print("Please pay $10 to ride this rollercoaster :D")
+  else:
+    print("Please pay $15 to ride this rolleroaster :D")
+else:
+  print("Uh-oh you're gonna have to grow a little taller to ride this rollrcoaster :(")
